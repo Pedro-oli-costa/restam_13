@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+<body>
+<style>
+  body{background-color: rgb(138,43,226)}
+
+</style>
+    <h1> Ola pessoas!</h1>
+    <br>
+    <br>
+    <p>Ja me livrei da escuridão</p>
+
+<script>
+
+	alert('restam 13')
+  let n1 = parseInt(window.prompt('Digite um número de 1 a 10 que  : '));
+  let multi  = n1 *9 
+ window.alert(`O resultado é ${multi}`); 
+  let n2 = parseInt(window.prompt('digite o priemiro numero do resultado: '))
+  let n3 = parseInt(window.prompt('digite o segundo numero do resultado: '))
+  let s  = n2 + n3 
+window.alert(`A soma é ${s}`);
+  let n4 = parseInt(window.prompt('digite o numero 4 para somar e ver o resultado: '))
+  let r1 = s + n4
+  window.alert(`O resultado é ${r1}`);
+  alert('independente do numero que voce coloque dara o mesmo resultado ')
+</script>
+
+
+</body>
